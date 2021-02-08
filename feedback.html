@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+background-color:aqua;
+font-family:Didot, Calibri, Courier, Arial;
+font-size:42px;
+color:black;
+border-style:groove;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+
+ background-image: url("https://i.pinimg.com/originals/64/68/1f/64681fde5b304c277288d139ccdaef13.jpg");
+ height: 100%;
+ widht:100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+}
+.align{
+margin-left:370px;}
+
+.container {
+  margin-top: 50px;
+  position: absolute;
+  max-width: 600px;
+  padding: 16px;
+  background-color: #F8F8F8;
+  font-size:16px;
+  border-style:inset;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.btn {
+  background-color: aqua;
+  color: darkblack;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size:19px;
+  border-style:double;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body class="bg-img">
+
+
+<center><div class="align">
+ <form action="/action_page.php" class="container">
+    <h1 >Feedback Form</h1><br>
+<p>Did you enjoy the games : 
+    <input type="checkbox" id="game" name="game" value="game">
+<label for="game">Yes</label>
+    <input type="checkbox" id="like" name="like" value="like">
+<label for="like">No</label><br><br></p>
+
+<p>Would you like to recommend the games to your friends : 
+    <input type="checkbox" id="game" name="game" value="game">
+<label for="game">Yes</label>
+    <input type="checkbox" id="like" name="like" value="like">
+<label for="like">No</label><br><br></p>
+
+<label for="choose">Which game you like the most : </label>
+<select id="choose" name="choose">
+  <option value="tictactoe">Tic Tac Toe</option>
+   <option value="2d brick">2-D Brick</option>
+</select><br><br><br>
+
+<label for="rate">Give the Ratings : </label>
+<select id="rate" name="rate">
+  <option value="1"><b>1<b></option>
+  <option value="2"><b>2<b></option>
+  <option value="3"><b>3<b></option>
+  <option value="4"><b>4<b></option>
+  <option value="5"><b>5<b></option>
+</select><br><br>
+
+<p> Any other Feedback : <br><br>
+<textarea rows="4" cols="50"></textarea><br><br></p>
+
+
+<input type="button" onclick="alert('Thank You for your response!')"  value="Submit Your Feedback !" class="btn">
+  </form>
+
+</div>
+</center>
+</body>
+</html>

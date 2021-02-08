@@ -1,0 +1,62 @@
+#mycanvas{
+    border: 2px solid silver;
+    border-style: dotted;
+    margin: 30px 0px 20px 350px;
+    
+}
+h1
+{
+	margin-left: 550px;
+	color: white;
+	text-decoration: underline;
+	font-family: 'Indie Flower', 'Comic Sans', cursive;
+}
+div button
+{
+		text-align: center;
+        border: none;
+        padding: 0.6em 1.2em;
+        background: #ed4e6e;
+        color: #fff;
+        font-size: 1em;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        cursor: pointer;
+        position: relative;
+        margin-left: 600px;
+        border-radius: 2px;
+        margin-bottom: 40px;
+        
+
+}
+#back,#exit
+{
+	text-align: center;
+        border: none;
+        padding: 0.6em 1.2em;
+        background: darkgrey;
+        color: #fff;
+        font-size: 1em;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        cursor: pointer;
+        position: relative;
+        color: black;
+        border-radius: 2px;
+        margin-bottom: 20px;
+}
+#back
+{
+	margin-left: 525px;
+	margin-right: 10px;
+}
+.container
+{
+	background-image: url("https://i.pinimg.com/originals/64/68/1f/64681fde5b304c277288d139ccdaef13.jpg");
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}

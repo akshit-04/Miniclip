@@ -1,0 +1,109 @@
+
+
+
+
+<!DOCTYPE html>
+<head>
+<title> Games </title>
+<link
+      rel="shortcut icon"
+      href="logo.png"
+      type="image/x-icon"
+    />
+<style>
+body {
+ 	background-image: url('https://i.pinimg.com/originals/64/68/1f/64681fde5b304c277288d139ccdaef13.jpg');
+  	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  
+}
+#disp
+{
+	margin-top: 20px;
+	margin-bottom: 40px;
+	text-decoration: underline;
+	font-size: 60px;
+	font-family: 'Indie Flower', 'Comic Sans', cursive;
+	text-transform: uppercase;
+}
+.btn,#back
+{
+		text-align: center;
+        border: none;
+        padding: 0.6em 1.2em;
+        background: #ed4e6e;
+        color: #fff;
+        font-size: 1em;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        cursor: pointer;
+        display: inline-block;
+        margin: 3px 2px;
+        border-radius: 2px;
+}
+#back
+{
+	padding: 15px 40px;
+    background: lightgrey;
+    color: black;
+    font-weight: bold;
+}
+</style>
+
+</head>
+	
+
+
+
+
+<body onload="mynew();">
+	<script>
+		function mynew()
+	{
+    	var n=localStorage['objectToPass'];
+    	var dd=n;
+    	document.getElementById("disp").innerHTML="Hello "+dd;
+	}
+		
+		function myb()
+		{
+		    	window.open("brick.html");
+		}
+		function myt()
+		{
+			window.open("ttt.html");
+		}
+	</script>
+<center>
+	<h1 style="color: white" id="disp"></h1>
+	<table>
+		
+		<tr>
+		<h2 style="color: yellow;">Choose the game:</h2>	
+		</tr>
+		<tr>
+			<td style="padding: 50px">
+				<img src="https://lh3.googleusercontent.com/7k1wSfnstoNib_lmlfIfFTcHOE4oypb-mmuzvhPLpfFRz55CnNJFagyd6u6G4fFrlDI" style="width: 250px; height: 250px; "></td>
+				
+
+			<td style="padding: 50px">
+				<img src="https://i.pinimg.com/originals/19/4c/67/194c674ab301391d482422d324d89b6f.jpg" style="width: 250px; height: 250px; "></td>
+				
+		</tr>
+		<tr>
+			<th><button type="button" onclick="myt();" class="btn">TIC TAC TOE</button>
+			</th>
+			<th><button type="button" onclick="myb();" class="btn">2D BRICK Breaker</button>
+			</th>
+		</tr>
+	</table>
+	<h3>
+		<button type="button" id="back" onclick=window.open("front.html");>Home Page</button>
+		
+	</h3>
+</center>
+</body>
+</html>

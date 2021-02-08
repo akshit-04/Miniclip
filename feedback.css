@@ -1,0 +1,82 @@
+#divison
+{
+	
+	
+  margin: auto;
+  width: 40%;
+  color: black;
+  padding: 10px;
+  background-color: #F8F8F8;
+
+
+}
+td:nth-child(1)
+{
+	
+	text-align:right;
+	padding:20px;
+	
+	
+}
+option
+{
+	color: #ed4e6e;
+}
+.att
+{
+	border: 2px solid darkgreen;
+    border-style: dotted;
+    padding: 5px;
+}
+table
+{
+	margin-left: 50px;
+}
+button
+{
+	
+	
+	    text-align: center;
+        border: none;
+        padding: 0.6em 1.2em;
+        background: #ed4e6e;
+        color: #fff;
+        font-size: 1em;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        cursor: pointer;
+        border-radius: 2px;
+        margin-bottom: 40px;
+        margin-left:250px; 
+        margin-top: 20px;
+
+}
+.mainback
+{
+	background-image:url("https://i.pinimg.com/originals/64/68/1f/64681fde5b304c277288d139ccdaef13.jpg");
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	
+}
+h1
+{
+	text-align:center;
+	padding:20px;
+	font-size:250%;
+	margin-left: 10px;
+	text-shadow:2px 2px aqua;
+	background-color:#F8F8F8;
+	font-family:Didot, Calibri, Courier, Arial;
+	text-decoration: underline;
+	border-style:groove;
+	border: 2px solid darkgreen;
+}
+td
+{
+	padding: 5px;
+	font-size: 17px;
+}
+
+
